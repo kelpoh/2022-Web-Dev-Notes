@@ -1,3 +1,5 @@
 def f():
-    print("Hello, world!")
+    userName = input("What's your name?")
+    print("It's nice to meet you, " + userName + "!")
+    
 f()
