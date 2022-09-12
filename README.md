@@ -8,4 +8,4 @@
 ### I already have some experience with the frontend design of websites because of the small projects I worked on over the summer, so I'm really looking forward to expanding my knowledge with backend and database work.
 
 
-# ![it's a photo of me](C:\Users\Eleni\Documents\source\repos\2022-fall-web-dev)
+# ![it's a photo of me](C:\Users\Eleni\Documents\source\repos\2022-fall-web-dev\itsme.jpg)
