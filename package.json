@@ -1,0 +1,26 @@
+{
+  "name": "2022-web-dev-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "~4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelpoh/2022-Web-Dev-Notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelpoh/2022-Web-Dev-Notes/issues"
+  },
+  "homepage": "https://github.com/kelpoh/2022-Web-Dev-Notes#readme"
+}
