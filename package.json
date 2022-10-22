@@ -1,26 +1,27 @@
 {
-  "name": "2022-web-dev-notes",
+  "name": "2022web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+
   "scripts": {
-    "dev": "nodemon --watch server/index.js",
+    "dev": "nodemon --watch server server/index.js",
     "start": "node server/index.js"
   },
   "dependencies": {
-    "express": "~4.18.1"
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelpoh/2022-Web-Dev-Notes.git"
+    "url": "git+https://github.com/jewpaltz/2022-fall-web-dev.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kelpoh/2022-Web-Dev-Notes/issues"
+    "url": "https://github.com/jewpaltz/2022-fall-web-dev/issues"
   },
-  "homepage": "https://github.com/kelpoh/2022-Web-Dev-Notes#readme"
+  "homepage": "https://github.com/jewpaltz/2022-fall-web-dev#readme"
 }
