@@ -1,21 +1,20 @@
 const data = require('../data/products.json');
-
 const { connect } = require('./mongo');
 
-async function collection() {
+async function collection(){
     const client = await connect();
-    return client.db("Shoperator").collection("products");
+    return client.db('chopiphy').collection('products');
 }
 
 async function getProducts() {
     const db = await collection();
-    const data = await collection().find().toArray()
+    const data = await db.find().toArray()
     return data;
 }
 
 async function getProduct(id) {
     const db = await collection();
-    const data = await collection().findOne({ _id: id})
+    const data = await db.findOne({ _id: id })
     return data;
 }
 
